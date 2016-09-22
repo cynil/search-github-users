@@ -1,0 +1,39 @@
+$borderColor: #ededed;
+$fontSize: 14px;
+$lineHeight: 142.8571429%;
+
+body{
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    text-align: center;
+}
+h2.header{
+    margin: 2rem 0;
+}
+.search{
+    margin: 1rem 0;
+    text-align: center;
+}
+ul.users{
+    text-align: left;
+}
+li.user{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 114px;
+    border: 1px solid $borderColor;
+    list-style: none;
+    padding: 6px;
+    text-align: center;
+    a{
+        display: block;
+        img{
+            height: 100px;
+            width: 100px;
+        }
+    }
+    p{
+        text-align: center;
+        margin: 4px 0;
+    }
+}
