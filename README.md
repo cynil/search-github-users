@@ -16,4 +16,4 @@ npm run dev
 then open http://localhost:8080
 
 ##Live demo
-(Search Github Users)[http://cynil.github.io/search-github-users]
+[Search Github Users](http://cynil.github.io/search-github-users)
